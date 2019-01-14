@@ -7,7 +7,7 @@ class StDebug
     public $testVar;
     private $varType;
     private $defaultStyles = [
-        'http://think.diandingsc.cc/extend/akaba/dev/StDebug.css',
+        'extend/akaba/dev/StDebug.css',
     ];
     static $hasLoadedStyle = false;
     public function __construct($options = '')
