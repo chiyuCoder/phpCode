@@ -1,0 +1,123 @@
+.stdump{
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    word-break: break-all;
+}
+.stdump .trace-row{
+    padding: 0 10px;
+    margin-bottom: 10px;
+    background-color: #555dff;
+    color: white;
+}
+.stdump .trace-row .trace-line{
+    margin-left: 20px;
+    color: #9ffb72;
+}
+.obj-prop-class{
+    color: #666;
+}
+.modifier-public{
+    color: #abcfe2;
+}
+.modifier-private{
+    color: darkred;
+}
+.obj-prop-name::before{
+    content:'$';
+}
+.obj-prop{
+    padding-top: 12px;
+    padding-right: 2em;
+    padding-bottom: 12px;
+    padding-left: 2em;
+    border-top: 1px solid #3fd325;
+    border-bottom: 1px solid #3fd325;
+    margin-bottom: 5px;
+}
+.obj-prop>.obj-prop-key{
+    margin-left: -2em;
+    margin-right: -2em;
+}
+.const-key{
+    color: #457fd8;
+}
+.const-key::after{
+    margin-left: 4px;
+    margin-right: 4px;
+    content: '=';
+    color: black;
+}
+.const-value::before{
+    content: '\"';
+}
+.const-value::after{
+    content: '\"';
+}
+.obj-prop-val>.debug-item,
+.obj-prop-val>.arr-block{
+    padding: 5px 10px;
+    border: 1px solid #333;
+    border-radius: 4px;
+}
+
+.item-type{
+    font-style: italic;
+}
+.item-len{
+    color: brown;
+}
+.item-len::before{
+    content:'(';
+}
+.item-len::after{
+    content:')';
+}
+.debug-item .item-value{
+    margin-left: 30px;
+}
+.arr-item .arr-key::before{
+    content:'[\'';
+}
+.arr-item .arr-key::after{
+    content:'\'] => ';
+}
+.arr-item .arr-value{
+    padding-left: 3em;
+}
+.type-method{
+    font-weight: bold;
+}
+.obj-method-params::before{
+    content: "(";
+}
+.obj-method-params::after{
+    content:')';
+}
+.obj-prop-name{
+    color: #a46c89;
+}
+.obj-method-name{
+    color: #a5d8c9;
+}
+.func-params .param-describe .param-type{
+    margin-right: -2px;
+    font-weight: bolder;
+    font-style: italic;
+    text-transform:capitalize;
+}
+.func-params .param-describe .param-name::before{
+    content:'$';
+}
+.func-params .param-describe  .param-default::before{
+    content:'= ';
+}
+.func-params .param-describe .param-type::after{
+    content: ":";
+}
+.func-params .param-describe::after{
+    content:", ";
+}
+.func-params .param-describe:last-child::after{
+    content:"";
+}

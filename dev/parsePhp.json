@@ -1,0 +1,856 @@
+[
+    {
+        "path": "D:\/myprocedure\/wamp\/www\/application\/admin\/controller\/ActiveUp.php",
+        "namespace": "app\\admin\\controller",
+        "class": "ActiveUp",
+        "extends": "Basis",
+        "publicFuncs": [
+            {
+                "function": "getUpModelData"
+            },
+            {
+                "function": "getModelPrice"
+            },
+            {
+                "function": "isManager"
+            },
+            {
+                "function": "adminSetActive"
+            },
+            {
+                "function": "setAdminSetActiveDate"
+            },
+            {
+                "function": "demo"
+            }
+        ]
+    },
+    {
+        "path": "D:\/myprocedure\/wamp\/www\/application\/admin\/controller\/Actlog.php",
+        "namespace": "app\\admin\\controller",
+        "class": "Actlog",
+        "extends": "Basis",
+        "publicFuncs": [
+            {
+                "function": "index"
+            },
+            {
+                "function": "detail"
+            },
+            {
+                "function": "test"
+            },
+            {
+                "function": "read"
+            },
+            {
+                "function": "edit"
+            },
+            {
+                "function": "update"
+            },
+            {
+                "function": "delete"
+            },
+            {
+                "function": "qrcurl"
+            }
+        ]
+    },
+    {
+        "path": "D:\/myprocedure\/wamp\/www\/application\/admin\/controller\/Addons.php",
+        "namespace": "app\\admin\\controller",
+        "class": "Addons",
+        "extends": "Basis",
+        "publicFuncs": [
+            {
+                "function": "index"
+            },
+            {
+                "function": "orgDataPage"
+            },
+            {
+                "function": "install"
+            },
+            {
+                "function": "upgrade"
+            },
+            {
+                "function": "installed"
+            },
+            {
+                "function": "bindingModel"
+            },
+            {
+                "function": "noinstall"
+            },
+            {
+                "function": "canupgrade"
+            },
+            {
+                "function": "order"
+            },
+            {
+                "function": "status"
+            },
+            {
+                "function": "addType"
+            },
+            {
+                "function": "typeorder"
+            },
+            {
+                "function": "editOrder"
+            },
+            {
+                "function": "type"
+            },
+            {
+                "function": "icon"
+            },
+            {
+                "function": "editprice"
+            },
+            {
+                "function": "create"
+            }
+        ]
+    },
+    {
+        "path": "D:\/myprocedure\/wamp\/www\/application\/admin\/controller\/Base.php",
+        "namespace": "app\\admin\\controller",
+        "class": "Base",
+        "extends": "Basis",
+        "publicFuncs": [
+            {
+                "function": "index"
+            },
+            {
+                "function": "add"
+            },
+            {
+                "function": "update"
+            },
+            {
+                "function": "updateActive"
+            },
+            {
+                "function": "getBetween"
+            },
+            {
+                "function": "upPeoNumber"
+            },
+            {
+                "function": "activeOrder"
+            },
+            {
+                "function": "getPublicsInfo"
+            },
+            {
+                "function": "moduleList"
+            },
+            {
+                "function": "getScene"
+            },
+            {
+                "function": "fansList"
+            },
+            {
+                "function": "form"
+            },
+            {
+                "function": "del"
+            },
+            {
+                "function": "delDetail"
+            },
+            {
+                "function": "clearDetail"
+            },
+            {
+                "function": "activeStatus"
+            },
+            {
+                "function": "status"
+            },
+            {
+                "function": "award"
+            },
+            {
+                "function": "account"
+            },
+            {
+                "function": "dataList"
+            },
+            {
+                "function": "entry"
+            },
+            {
+                "function": "accountJoin"
+            },
+            {
+                "function": "upPeopleNumber"
+            },
+            {
+                "function": "money"
+            },
+            {
+                "function": "computeMoney"
+            },
+            {
+                "function": "upModule"
+            },
+            {
+                "function": "moduleUrl"
+            },
+            {
+                "function": "delFan"
+            },
+            {
+                "function": "delAllFan"
+            },
+            {
+                "function": "setjoin"
+            },
+            {
+                "function": "editTitle"
+            },
+            {
+                "function": "getModulePrice"
+            },
+            {
+                "function": "checkKeyword"
+            },
+            {
+                "function": "keywordContent"
+            },
+            {
+                "function": "keywordInfo"
+            },
+            {
+                "function": "activeQrcode"
+            },
+            {
+                "function": "activeUrList"
+            },
+            {
+                "function": "accountList"
+            },
+            {
+                "function": "appUrl"
+            },
+            {
+                "function": "keywordSave"
+            }
+        ]
+    },
+    {
+        "path": "D:\/myprocedure\/wamp\/www\/application\/admin\/controller\/Basis.php",
+        "namespace": "app\\admin\\controller",
+        "class": "Basis",
+        "extends": "Controller",
+        "publicFuncs": [
+            {
+                "function": "getSite"
+            },
+            {
+                "function": "_initialize"
+            },
+            {
+                "function": "getAllNavs"
+            },
+            {
+                "function": "upimg"
+            },
+            {
+                "function": "getImg"
+            },
+            {
+                "function": "cloudUp"
+            },
+            {
+                "function": "qiniuUp"
+            },
+            {
+                "function": "ossUp"
+            },
+            {
+                "function": "cosUp"
+            },
+            {
+                "function": "imgLists"
+            },
+            {
+                "function": "delImg"
+            },
+            {
+                "function": "modelDel"
+            }
+        ]
+    },
+    {
+        "path": "D:\/myprocedure\/wamp\/www\/application\/admin\/controller\/Dev.php",
+        "namespace": "app\\admin\\controller",
+        "class": "Dev",
+        "extends": "Controller",
+        "publicFuncs": [
+            {
+                "function": "errorPage"
+            },
+            {
+                "function": "listAddons"
+            }
+        ]
+    },
+    {
+        "path": "D:\/myprocedure\/wamp\/www\/application\/admin\/controller\/Exe.php",
+        "namespace": "app\\admin\\controller",
+        "class": "Exe",
+        "extends": "Controller",
+        "publicFuncs": [
+            {
+                "function": "install"
+            }
+        ]
+    },
+    {
+        "path": "D:\/myprocedure\/wamp\/www\/application\/admin\/controller\/Invoice.php",
+        "namespace": "app\\admin\\controller",
+        "class": "Invoice",
+        "extends": "Basis",
+        "publicFuncs": [
+            {
+                "function": "index"
+            },
+            {
+                "function": "log"
+            },
+            {
+                "function": "setting"
+            }
+        ]
+    },
+    {
+        "path": "D:\/myprocedure\/wamp\/www\/application\/admin\/controller\/Message.php",
+        "namespace": "app\\admin\\controller",
+        "class": "Message",
+        "extends": "Basis",
+        "publicFuncs": [
+            {
+                "function": "index"
+            },
+            {
+                "function": "log"
+            },
+            {
+                "function": "buysms"
+            },
+            {
+                "function": "buyDetail"
+            },
+            {
+                "function": "warning"
+            }
+        ]
+    },
+    {
+        "path": "D:\/myprocedure\/wamp\/www\/application\/admin\/controller\/Oauth.php",
+        "namespace": "app\\admin\\controller",
+        "class": "Oauth",
+        "extends": "Controller",
+        "publicFuncs": [
+            {
+                "function": "receive"
+            },
+            {
+                "function": "paramQrcode"
+            },
+            {
+                "function": "autoOauth"
+            },
+            {
+                "function": "getComponentAccessToken"
+            },
+            {
+                "function": "simpleOauth"
+            },
+            {
+                "function": "autoOauthBack"
+            },
+            {
+                "function": "oauthReceive"
+            },
+            {
+                "function": "authorize"
+            },
+            {
+                "function": "bridge"
+            }
+        ]
+    },
+    {
+        "path": "D:\/myprocedure\/wamp\/www\/application\/admin\/controller\/Payment.php",
+        "namespace": "app\\admin\\controller",
+        "class": "Payment",
+        "extends": "Controller",
+        "publicFuncs": [
+            {
+                "function": "__construct"
+            },
+            {
+                "function": "pay"
+            },
+            {
+                "function": "wxTransfer"
+            },
+            {
+                "function": "aliPay"
+            },
+            {
+                "function": "alireturn"
+            },
+            {
+                "function": "alinotify"
+            },
+            {
+                "function": "wxPay"
+            },
+            {
+                "function": "wxreturn"
+            }
+        ]
+    },
+    {
+        "path": "D:\/myprocedure\/wamp\/www\/application\/admin\/controller\/Personal.php",
+        "namespace": "app\\admin\\controller",
+        "class": "Personal",
+        "extends": "Basis",
+        "publicFuncs": [
+            {
+                "function": "index"
+            },
+            {
+                "function": "account"
+            },
+            {
+                "function": "paypass"
+            },
+            {
+                "function": "address"
+            },
+            {
+                "function": "orders"
+            },
+            {
+                "function": "news"
+            },
+            {
+                "function": "avatar"
+            }
+        ]
+    },
+    {
+        "path": "D:\/myprocedure\/wamp\/www\/application\/admin\/controller\/Platform.php",
+        "namespace": "app\\admin\\controller",
+        "class": "Platform",
+        "extends": "Basis",
+        "publicFuncs": [
+            {
+                "function": "index"
+            },
+            {
+                "function": "scenes"
+            },
+            {
+                "function": "suits"
+            },
+            {
+                "function": "addSuit"
+            },
+            {
+                "function": "addScene"
+            },
+            {
+                "function": "ajaxGetAll"
+            },
+            {
+                "function": "setcoupon"
+            },
+            {
+                "function": "coupon"
+            },
+            {
+                "function": "couponDel"
+            },
+            {
+                "function": "market"
+            },
+            {
+                "function": "addprice"
+            },
+            {
+                "function": "price"
+            },
+            {
+                "function": "delBetween"
+            },
+            {
+                "function": "suitsprice"
+            },
+            {
+                "function": "editprice"
+            },
+            {
+                "function": "addonsprice"
+            },
+            {
+                "function": "delsuits"
+            }
+        ]
+    },
+    {
+        "path": "D:\/myprocedure\/wamp\/www\/application\/admin\/controller\/Power.php",
+        "namespace": "app\\admin\\controller",
+        "class": "Power",
+        "extends": "Basis",
+        "publicFuncs": [
+            {
+                "function": "index"
+            },
+            {
+                "function": "add"
+            },
+            {
+                "function": "del"
+            },
+            {
+                "function": "group"
+            },
+            {
+                "function": "editUserPower"
+            },
+            {
+                "function": "addgroup"
+            },
+            {
+                "function": "showPower"
+            },
+            {
+                "function": "addoperation"
+            },
+            {
+                "function": "operation"
+            },
+            {
+                "function": "applicate"
+            },
+            {
+                "function": "addApp"
+            },
+            {
+                "function": "addModule"
+            },
+            {
+                "function": "addController"
+            },
+            {
+                "function": "modules"
+            },
+            {
+                "function": "controllers"
+            },
+            {
+                "function": "editModule"
+            },
+            {
+                "function": "editcontroller"
+            },
+            {
+                "function": "editoperation"
+            },
+            {
+                "function": "delgroup"
+            },
+            {
+                "function": "delManager"
+            },
+            {
+                "function": "editManager"
+            },
+            {
+                "function": "editPower"
+            },
+            {
+                "function": "groupchange"
+            }
+        ]
+    },
+    {
+        "path": "D:\/myprocedure\/wamp\/www\/application\/admin\/controller\/Publics.php",
+        "namespace": "app\\admin\\controller",
+        "class": "Publics",
+        "extends": "Basis",
+        "publicFuncs": [
+            {
+                "function": "index"
+            },
+            {
+                "function": "ajaxGetAll"
+            },
+            {
+                "function": "binding"
+            },
+            {
+                "function": "add"
+            },
+            {
+                "function": "encryptId"
+            },
+            {
+                "function": "decryptId"
+            },
+            {
+                "function": "del"
+            },
+            {
+                "function": "forDebug"
+            },
+            {
+                "function": "connect"
+            },
+            {
+                "function": "platform"
+            }
+        ]
+    },
+    {
+        "path": "D:\/myprocedure\/wamp\/www\/application\/admin\/controller\/Serverfiles.php",
+        "namespace": "app\\admin\\controller",
+        "class": "ServerFiles",
+        "extends": "Basis",
+        "publicFuncs": [
+            {
+                "function": "_initialize"
+            },
+            {
+                "function": "listMsc"
+            },
+            {
+                "function": "upMsc"
+            },
+            {
+                "function": "delMsc"
+            }
+        ]
+    },
+    {
+        "path": "D:\/myprocedure\/wamp\/www\/application\/admin\/controller\/Service.php",
+        "namespace": "app\\admin\\controller",
+        "class": "Service",
+        "extends": "Basis",
+        "publicFuncs": [
+            {
+                "function": "index"
+            },
+            {
+                "function": "suggest"
+            },
+            {
+                "function": "serverinfo"
+            },
+            {
+                "function": "add"
+            },
+            {
+                "function": "status"
+            },
+            {
+                "function": "replyStatus"
+            },
+            {
+                "function": "showStatus"
+            },
+            {
+                "function": "afterSale"
+            },
+            {
+                "function": "evaluate"
+            },
+            {
+                "function": "devsuggest"
+            }
+        ]
+    },
+    {
+        "path": "D:\/myprocedure\/wamp\/www\/application\/admin\/controller\/Setting.php",
+        "namespace": "app\\admin\\controller",
+        "class": "Setting",
+        "extends": "Basis",
+        "publicFuncs": [
+            {
+                "function": "_initialize"
+            },
+            {
+                "function": "message"
+            },
+            {
+                "function": "ticket"
+            },
+            {
+                "function": "attachment"
+            },
+            {
+                "function": "del"
+            },
+            {
+                "function": "add"
+            },
+            {
+                "function": "index"
+            },
+            {
+                "function": "config"
+            },
+            {
+                "function": "attach"
+            },
+            {
+                "function": "qcloudCos"
+            },
+            {
+                "function": "aliOss"
+            },
+            {
+                "function": "email"
+            },
+            {
+                "function": "wechatPay"
+            },
+            {
+                "function": "aliPay"
+            },
+            {
+                "function": "workerman"
+            },
+            {
+                "function": "redis"
+            }
+        ]
+    },
+    {
+        "path": "D:\/myprocedure\/wamp\/www\/application\/admin\/controller\/Site.php",
+        "namespace": "app\\admin\\controller",
+        "class": "Site",
+        "extends": "Basis",
+        "publicFuncs": [
+            {
+                "function": "index"
+            },
+            {
+                "function": "visit"
+            }
+        ]
+    },
+    {
+        "path": "D:\/myprocedure\/wamp\/www\/application\/admin\/controller\/Template.php",
+        "namespace": "app\\admin\\controller",
+        "class": "Template",
+        "extends": "Basis",
+        "publicFuncs": [
+            {
+                "function": "index"
+            },
+            {
+                "function": "editKeyword"
+            }
+        ]
+    },
+    {
+        "path": "D:\/myprocedure\/wamp\/www\/application\/admin\/controller\/Timetask.php",
+        "namespace": "app\\admin\\controller",
+        "class": "Timetask",
+        "extends": "",
+        "publicFuncs": [
+            {
+                "function": "index"
+            },
+            {
+                "function": "qinUp"
+            },
+            {
+                "function": "cosUp"
+            },
+            {
+                "function": "ossUp"
+            }
+        ]
+    },
+    {
+        "path": "D:\/myprocedure\/wamp\/www\/application\/admin\/controller\/User.php",
+        "namespace": "app\\admin\\controller",
+        "class": "User",
+        "extends": "Controller",
+        "publicFuncs": [
+            {
+                "function": "haslogin"
+            },
+            {
+                "function": "_initialize"
+            },
+            {
+                "function": "signin"
+            },
+            {
+                "function": "login"
+            },
+            {
+                "function": "loginerror"
+            },
+            {
+                "function": "loginsucess"
+            },
+            {
+                "function": "valiphone"
+            },
+            {
+                "function": "sendcode"
+            },
+            {
+                "function": "logout"
+            },
+            {
+                "function": "makeAccount"
+            },
+            {
+                "function": "forgetPassword"
+            }
+        ]
+    },
+    {
+        "path": "D:\/myprocedure\/wamp\/www\/application\/admin\/controller\/UserSettingTrait.php",
+        "namespace": "app\\admin\\controller",
+        "class": "",
+        "extends": "",
+        "publicFuncs": []
+    },
+    {
+        "path": "D:\/myprocedure\/wamp\/www\/application\/admin\/controller\/Useroauth.php",
+        "namespace": "app\\admin\\controller",
+        "class": "Useroauth",
+        "extends": "Controller",
+        "publicFuncs": [
+            {
+                "function": "__construct"
+            },
+            {
+                "function": "userinfo"
+            },
+            {
+                "function": "userinfoback"
+            },
+            {
+                "function": "getUnid"
+            }
+        ]
+    }
+]
